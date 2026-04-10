@@ -6,5 +6,32 @@ body {
 
 table {
     width: 1000px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 30px;
+    color: red;
+    font-weight: 900;
+}
+
+thead tr {
+    border-bottom: 2px solid aqua;
+}
+
+tbody tr {
+    border-bottom: 1px solid #cccccc;
+}
+
+td, th {
+    /* border: 1px solid #000; */
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+tfoot tr {
+    background-color: #f9f9f9;
 }
