@@ -25,6 +25,12 @@ tbody tr {
     border-bottom: 1px solid #cccccc;
 }
 
+tbody tr:hover {
+    background-color: #dddddd;
+    color: #336699;
+    font-weight: 900;
+}
+
 td, th {
     /* border: 1px solid #000; */
     padding: 10px;
@@ -34,4 +40,52 @@ td, th {
 
 tfoot tr {
     background-color: #f9f9f9;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&amp;family=Open+Sans+Condensed:wght@300&amp;display=swap');
+html {
+    font-family: 'Lato', sans-serif;
+}
+table {
+    margin: 10px auto;
+    font-size: 18px;
+    width: 800px;
+    border-collapse: collapse;
+}
+caption {
+    font-size: 30px;
+    color: rgb(42, 98, 172);
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+thead tr {
+    background: rgb(42, 98, 172);
+    color: #fff;
+    text-align: left;
+}
+th, td {
+    padding: 15px;
+    box-sizing: border-box;
+}
+tbody tr {
+    border-bottom: 1px solid #ccc;
+}
+tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+tbody tr:last-child {
+    border-bottom: 20px solid rgb(42, 98, 172);
+}
+tbody tr:hover {
+    font-weight: 900;
+    color: rgb(42, 98, 172);
+    cursor: pointer;
+}
+tfoot {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 900;
 }
