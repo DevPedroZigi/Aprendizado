@@ -5,3 +5,8 @@ div {
     padding: 10px;
     border: 1px solid #DC143C;
 }
+
+#container {
+    width: 300px;
+    border: 10px solid #060646;
+}
