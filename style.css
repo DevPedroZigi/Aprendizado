@@ -1,12 +1,17 @@
-div {
-    width: 200px;
+.container{
+    width: 300px;
     height: 50px;
     margin: 10px;
     padding: 10px;
-    border: 1px solid #DC143C;
+    border: 1px solid #000000;
+    color: #ffffff;
 }
-
-#container {
-    width: 300px;
-    border: 10px solid #060646;
+.box__um{
+    background-color: rgb(209, 27, 63);
+}
+.box__dois{
+    background-color: rgb(17, 60, 129);
+}
+.box__tres{
+    background-color: rgb(32, 6, 12);
 }
