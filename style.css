@@ -1,17 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans+Condensed:wght@300&display=swap');
+html {
+    font-family: 'Lato', sans-serif;
+}
 .container{
-    width: 300px;
-    height: 50px;
+    width: 600px;
+    margin: 0 auto;
+}
+h3{
+    font-weight: 900;
+    font-size: 25px;
+    color: rgb(62, 68, 153);
+}
+.drone__imagem{
+    width: 100%;
+    height: 150px;
+}
+.drone{
+    border: 1px solid #ccc;
+    padding: 0 10px;
+}
+h3,
+.drone__titulo,
+.drone__localizacao,
+.drone_descricao,
+.drone__estrelas,
+.drone__facilidades {
+    margin: 10px 0;  }
+.drone__titulo {
+    font-size: 40px;
+    color: rgb(6, 6, 83);
+    font-weight: 900;
+}
+.drone__localizacao {
+    font-size: 20px;
+    font-weight: 700;
+}
+.drone__estrelas {
+    font-size: 18px;
+    color: #333;
+}
+.drone__avaliacao i:last-child {
+    color: #999;
+}
+.drone__descricao {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 25px;
+}
+.drone__facilidades_icone {
+    font-size: 18px;
     margin: 10px;
+    color: #666;
     padding: 10px;
-    border: 1px solid #000000;
-    color: #ffffff;
+    border: 1px solid #666;
+    border-radius: 50%;
 }
-.box__um{
-    background-color: rgb(209, 27, 63);
+.drone__reservas {
+    margin: 30px 0;
 }
-.box__dois{
-    background-color: rgb(17, 60, 129);
+.drone__botao__reserva {
+    padding: 15px 40px;
+    background-color: rgb(62, 68, 153);
+    border: 1px solid rgb(62, 68, 153);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
 }
-.box__tres{
-    background-color: rgb(32, 6, 12);
+.drone__botao__reserva:hover{
+    color: rgb(62, 68, 153);
+    background-color: #FFF;
+    width: 100%;
+    height: auto;
 }
