@@ -10,3 +10,5 @@ def exibir_mensagem(texto, tempo):
 # programa principal
 msg = input("Digite a mensagem a ser exibida: ")
 exibir_mensagem(msg, 5)
+
+def 
