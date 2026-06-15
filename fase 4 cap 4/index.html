@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        var senha = 123456
+        var tentativas = 0
+        var teste = 0
+
+        while(tentativas < 3){
+            teste = Number(prompt("Digite a senha numerica: "))
+            tentativas++
+            if(teste === senha){
+                console.log("Senha correta")
+                break
+            }else if(tentativas === 3){
+                console.log("Número de tentativas excedidas")
+        }else{
+                console.log("Já foram feitas " + tentativas + " tentativas, tente novamente")
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
