@@ -8,23 +8,19 @@
 <body>
 
     <script>
+        var notas = [10, 8, 9, 7, 6];
+        var index = 0
+        var somaNotas = 0
 
-        var senha = 123456
-        var tentativas = 0
-        var teste = 0
+        do{
+            console.log('A nota do${index+1} bimestre é: ${notas[index]}')
+            somaNotas += notas[index]
+            index++
 
-        while(tentativas < 3){
-            teste = Number(prompt("Digite a senha numerica: "))
-            tentativas++
-            if(teste === senha){
-                console.log("Senha correta")
-                break
-            }else if(tentativas === 3){
-                console.log("Número de tentativas excedidas")
-        }else{
-                console.log("Já foram feitas " + tentativas + " tentativas, tente novamente")
-            }
-        }
+        }while(index < notas.length)
+
+        console.log('A média do aluno é: ${somaNotas/notas.length} boom')
+        
 
     </script>
     
