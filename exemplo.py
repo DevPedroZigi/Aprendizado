@@ -2,9 +2,8 @@ dia = 0
 
 while True:
     if dia <= 100:
-        print("AGAIN!")
+        print(f"Dia {dia} AGAIN!")
     else:
         print("CONGRATULATIONS!")
         break
     dia += 1
-    
