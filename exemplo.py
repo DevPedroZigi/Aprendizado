@@ -7,3 +7,5 @@ while True:
         print("CONGRATULATIONS!")
         break
     dia += 1
+
+print("Fim do loop.")
